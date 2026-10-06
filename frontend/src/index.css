@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap");
+@import "tailwindcss";
+
+:root {
+  /* Color — inspirado em equipamentos de climatização: teal de linha de
+     refrigeração, cobre de tubulação, estrutura em grafite. */
+  --sf-bg: #F3F5F3;
+  --sf-surface: #FFFFFF;
+  --sf-ink: #16211D;
+  --sf-ink-soft: #4B5A54;
+  --sf-line: #DEE3E0;
+  --sf-line-strong: #C3CBC6;
+
+  --sf-teal: #1F6F6B;
+  --sf-teal-dark: #14504D;
+  --sf-teal-tint: #E4F1EF;
+
+  --sf-copper: #B5642C;
+  --sf-copper-tint: #F7EAE0;
+
+  --sf-green: #2F7D4F;
+  --sf-green-tint: #E7F3EB;
+
+  --sf-blue: #3C6E9E;
+  --sf-blue-tint: #E8F0F7;
+
+  --sf-red: #B23B3B;
+  --sf-red-tint: #F8E9E9;
+
+  --sf-gray: #6B716D;
+  --sf-gray-tint: #ECEEEC;
+
+  --font-display: "Space Grotesk", "IBM Plex Sans", sans-serif;
+  --font-sans: "IBM Plex Sans", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: var(--sf-bg);
+  color: var(--sf-ink);
+  font-family: var(--font-sans);
+}
+
+* {
+  border-color: var(--sf-line);
+}
